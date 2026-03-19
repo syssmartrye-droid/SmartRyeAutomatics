@@ -1,11 +1,11 @@
 <?php
 date_default_timezone_set('Asia/Manila');
 
-define('DB_HOST', 'yamabiko.proxy.rlwy.net');
+define('DB_HOST', 'metro.proxy.rlwy.net');
 define('DB_USER', 'root');
-define('DB_PASS', 'lZcnXJljGzWWDUuTMBASqvSTOYpoyQOD');
+define('DB_PASS', 'JoGFcAWVcYGLosGFXRnatzMBfbMrGRUW');
 define('DB_NAME', 'railway');
-define('DB_PORT', 27491);
+define('DB_PORT', 13874);
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_PORT);
 
